@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--Sirve para que se muestren correctamente los caracteres-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--A continuación se llama el CSS de la hoja Deezer-->
+  <link rel="stylesheet" href="Deezer.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://e-cdn-files.dzcdn.net/cache/images/common/favicon/favicon-16x16.526cde4edf20647be4ee32cdf35c1c13.png"
+    rel="icon" sizes="16x16" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="//db.onlinewebfonts.com/c/e4397c6cf12af9f58d46e124d18d6d93?family=Mabry+Pro" rel="stylesheet"
+    type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <title>Landing Deezer</title>
+</head>
+
+<body style="background-color: black;">
+  <!--A continuación va el Header, que es el encabezado-->
+  <header>
+    <nav>
+      <!--Se crean tres etiqueta tipo ancla-->
+      <!--El código &#62 representa el caracter ">"-->
+      <a class="n-o" href="">Activar la oferta de mi socio &#62;</a>
+      <a href=""><img src="./images/deezer.1a1741c7871c27ef0ecb572defe8593e.png" alt="Logo Deezer"></a>
+      <a href="">Iniciar sesión</a>
+      <button type="button" class="btn btn-primary">Primary</button>
+    </nav>
+  </header>
+  <!--Se crea Section1 y se le aplica una clase-->
+  <section class="section1">
+    <!--Se genera el titulo The power of music-->
+    <h1>The Power of Music</h1>
+    <!--Se crea un div en el que se establece el Free gratis-->
+    <div class="card">
+      <!--el Deezer dentro del span sirve para aplicar estilos CSS-->
+      <h2><span>deezer</span> Free</h2>
+
+      <!--Parrafo normal-->
+      <p>Música, podcasts y radio, además de recomendaciones hechas para ti.</p>
+
+      <!-- etiqueta tipo ancla donde href está vació, no conlleva a ninguna pagina pero se subralla el texto-->
+      <a class="c-btn" href="">regístrate gratis</a>
+      <div class="pay">
+        <p class="txt-m">No se requiere pago</p>
+        <!-- etiqueta tipo ancla donde href está vació, no conlleva a ninguna pagina pero se subralla el texto-->
+        <a href="">Más informacíon</a>
+      </div>
+    </div>
+    <!--Se crea el segundo div "card" en el que se establece deezer family-->
+    <div class="card">
+
+      <!--el Deezer dentro del span sirve para aplicar estilos CSS-->
+      <h2><span>deezer</span> Family</h2>
+      <!--Parrafos normales-->
+      <p>Música para todos.</p>
+      <p>Obtén 6 cuentas individuales, todas con los beneficios de Deezer Premium, incluyendo sonido de alta fidelidad.
+      </p>
+      <p>Escucha simultáneamente en varios dispositivos.</p>
+      <!--Tipo ancla con href vacío para que subralle el texto-->
+      <a class="c-btn" href="">Pruébalo gratis</a>
+      <a href="" class="sus" data-text="luego $27.900/mes.">1 mes gratis</a>
+      <!--Div separado para dos parrafos, para aplicar estilos separados-->
+      <div class="pay">
+        <p class="txt-m">Sin compromiso, puedes cancelar cuando quieras.</p>
+        <a href="">Más informacíon</a>
+      </div>
+    </div>
+    <!--tercera clase con la misma estructura anteriore-->
+    <div class="card">
+      <p>Ofertas de socios</p>
+      <!--Se inserta un tipo imagen y se le da tamaño de 25px de ancho-->
+      <img width="25px" src="./src/img/tigo.png" alt="">
+      <a class="c-btn" href="">activar la oferta de mi socio</a>
+    </div>
+    <div class="card">
+      <!-- Contenedor principal para presentar la oferta de suscripción a Deezer Premium -->
+      <h2><span>deezer</span> Premium</h2>
+      <!-- Encabezado que resalta el nombre del servicio -->
+      <p>Elige y escucha cualquier canción sin anuncios y además, descarga tus favoritos y escúchalos sin conexión.</p>
+      <!-- Párrafo que describe los beneficios de la suscripción -->
+      <p>Disfruta de sonido de alta fidelidad y escucha en todos tus dispositivos.</p>
+      <!-- Enlace para invitar a los usuarios a probar el servicio de forma gratuita -->
+      <a class="c-btn" href="">Pruébalo gratis</a>
+      <!-- Enlace que ofrece un mes de suscripción gratuita, con atributo personalizado para datos futuros -->
+      <a href="" class="sus" data-text="luego $17.900/mes.">1 mes gratis</a>
+      <!-- Contenedor para información adicional sobre el pago y la cancelación -->
+      <div class="pay">
+        <!-- Párrafo que resalta la flexibilidad de cancelación de la suscripción -->
+        <p class="txt-m">Sin compromiso, puedes cancelar cuando quieras.</p>
+        <!-- Enlace para acceder a más detalles sobre la suscripción -->
+        <a href="">Más informacíon</a>
+      </div>
+</div>
+<!-- Cierre del contenedor principal -->
+    <!-- Enlaces con descuentos y promociones -->
+<a class="c-m" href="" data-text="-25%">Descuento anual &#709;</a>
+<a class="c-m" href="" data-text="-50%">Descuento para estudiantes &#709;</a>
+
+<!-- Sección de contenido principal -->
+<section class="section2">
+  <!-- Título de la sección -->
+  <h2 class="section-title">¿Por qué elegir Deezer?</h2>
+  <!-- Subtítulo de la sección -->
+  <h4 class="section-subtitle">Haz stream de millones de canciones, podcasts y canales de radio. Accede a nuestra app de música desde todos tus dispositivos. Descubre las funciones básicas y exclusivas incorporadas.</h4>
+  
+  <!-- Enlace a las funciones de Deezer -->
+  <a class="buttom-section btn-s2" href="#">
+    <span class="buttom-text">DESCUBRE TODAS NUESTRAS FUNCIONES</span>
+  </a>
+  
+  <!-- Título de la subsección "Vive la experiencia de flow, solo en Deezer" -->
+  <h3 class="two-title">Vive la experiencia de flow, solo en Deezer</h3>
+  
+  <!-- Subtítulo de la subsección "Vive la experiencia de flow" -->
+  <h4 class="section-subtitle2">Utilizando el poder de la IA, Flow te entrega un mix infinito de todos tus favoritos y nuevos descubrimientos en función de tu estado de ánimo</h4>
+  
+  <!-- Contenedor de imagen relacionado con Flow -->
+  <div class="container_img1">
+    <a href="#">
+      <img class="img" src="https://e-cdn-files.dzcdn.net/cache/images/unlogged/homepage/hybrid/flow_mood.56b165979290d5084a7122eb83febb21.jpg" alt="">
+    </a>
+  </div>
+  
+  <!-- Enlace para descubrir más sobre Flow -->
+  <a class="buttom-section2 btn-s2" href="#">
+    <span class="buttom-text2">DESCUBRE FLOW</span>
+  </a>
+  
+  <!-- Espacio en blanco -->
+  <div class="gap"></div>
+  
+  <!-- Título de la subsección "¿No tienes internet? No hay problema" -->
+  <h3 class="section-title3">¿No tienes internet? No hay problema</h3>
+  
+  <!-- Subtítulo de la subsección "¿No tienes internet?" -->
+  <h4 class="section-subtitle3">Descarga tu música y tus podcasts para escucharlos sin conexión y ahorrar tus datos.</h4>
+  
+  <!-- Contenedor de imagen relacionado con la descarga sin conexión -->
+  <div class="container_img2">
+    <a href="#">
+      <img class="img" src="https://e-cdn-files.dzcdn.net/cache/images/unlogged/homepage/hybrid/offline.da782944d5e0283b10567c5d75af4595.svg" alt="offline">
+    </a>
+    <!-- Texto "DESCARGA" -->
+    <h4 class="offline-text">DESCARGA</h4>
+  </div>
+</section>
+
+</div>
+<!-- Botón para escuchar música sin conexión -->
+<a class="buttom-section3 btn-s2" href="#">
+  <span class="buttom-text3">
+    ESCUCHAR MUSICA SIN CONEXIÓN
+  </span>
+</a>
+<!-- Espacio en blanco -->
+<div class="gap"></div>
+<!-- Título de la sección -->
+<h3 class="section-title4">
+  El catálogo más grande de <br>audio en streaming
+</h3>
+<!-- Subtítulo de la sección -->
+<h4 class="section-subtitle4">
+  Disfruta del acceso a un catálogo de más de 90 millones de canciones, playlists,<br>
+  podcasts y canales de radio. Descubre nuevos lanzamientos de música y álbumes <br>
+  de moda para crear tu propia biblioteca.
+</h4>
+<!-- Contenedor de álbumes -->
+<div class="cont-albumes">
+  <div class="conteiner-grid">
+    <!-- Enlace a un álbum -->
+    <a href="#">
+      <!-- Tarjeta de álbum -->
+      <div class="cont-card">
+        <!-- Imagen del álbum -->
+        <img class="img1"
+          src="https://cdns-images.dzcdn.net/images/cover/e1e452f18ae4393e1b59c6eb939b0ded/264x264.jpg" alt="">
+        <div>
+          <i>
+
+          </i>
+        </div>
+      </div>
+    </a>
+    <!-- Enlace a un álbum específico -->
+    <a class="ferxxo" href="#">
+      <span class="text-ferxxo">
+        FELIZ CUMPLEAÑOS FERXXO TE <br> PIRATEAMOS EL ÁLBUM
+      </span>
+    </a>
+    <!-- Enlace a artista -->
+    <a class="feid" href="#">
+      <span>Feid</span>
+    </a>
+  </div>
+  <!-- Otra fila de álbumes -->
+  <div>
+    <a href="#">
+      <div>
+        <img src="https://cdns-images.dzcdn.net/images/cover/bdfa7fc7af8fe2418ef6b06746f01b11/264x264.jpg" alt="">
+        <div>
+          <i>
+
+          </i>
+        </div>
+      </div>
+    </a>
+    <br>
+    <a class="Renaissance" href="#">
+      <span class="text-Renaissance">
+        Renaissance (Pagan Medieval Folk)
+      </span>
+    </a>
+    <a href="#">
+      <span class="text-Renaissance2">
+        Faun
+      </span>
+    </a>
+  </div>
+  <!-- Otra fila de álbumes -->
+  <div>
+    <a href="#">
+      <div>
+        <img class="" src="https://cdns-images.dzcdn.net/images/cover/b29d1070377b784384c2456093f96a66/264x264.jpg"
+          alt="">
+        <div>
+          <i>
+
+          </i>
+        </div>
+      </div>
+    </a>
+    <a class="BadBunny" href="#">
+      <span class="text-BadBunny">
+        Un Verano Sin Ti
+      </span>
+    </a>
+    <br>
+    <a href="#">
+      <span class="text-BadBunny2">
+        Bad Bunny
+      </span>
+    </a>
+  </div>
+  <!-- Otra fila de álbumes -->
+  <div>
+    <a href="#">
+      <div>
+        <img src="https://cdns-images.dzcdn.net/images/cover/c5e44b932ba1957da91c36ac02e9ee5b/264x264.jpg" alt="">
+        <div>
+          <i>
+
+          </i>
+        </div>
+      </div>
+    </a>
+    <a class="licht" href="#">
+      <span class="text-licht">
+        licht
+      </span>
+    </a>
+    <br>
+    <a href="#">
+      <span class="text-licht">
+        Faun
+      </span>
+    </a>
+  </div>
+</div>
+<!-- Botón para explorar el catálogo -->
+<a class="buttom-section4 btn-s2" href="#">
+  <span class="buttom-text4">
+    EXPLORA NUESTRO CATÁLOGO
+  </span>
+</a>
+</section>
+
+<section class="seccion3">
+  <!-- Novedades -->
+  <div class="news">
+    <span class="divider-line"></span>
+    <div class="divider-text">NOVEDADES</div>
+    <span class="divider-line"></span>
+  </div>
+  <!-- Título de la sección -->
+  <h2 class="newsText">Importa tu biblioteca de música a Deezer</h2>
+  <!-- Texto de novedades -->
+  <h3 class="news-text">
+    Transfiere toda tu biblioteca de música desde otro servicio de streaming
+    de música a Deezer con un solo clic.
+  </h3>
+  <!-- Gráfico -->
+  <div class="graphic">
+    <!-- Botón de la biblioteca -->
+    <button class="green-circle"><img src="src/icons/biblioteca.png" alt="library-icon"></button>
+    <!-- Botón de ondas -->
+    <button class="waves"><img src="src/icons/onda.PNG" alt=""></button>
+    <!-- Círculos de contenido -->
+    <div class="content-circle">
+      <button class="rainbow-circle"> <img src="src/icons/deezer.png" alt="deezer icon"></button>
+      <button class="rainbow-circle-shadow-pink"></button>
+      <button class="rainbow-circle-shadow-orange"></button>
+      <button class="rainbow-circle-shadow-white"></button>
+    </div>
+  </div>
+  <!-- Botón de información adicional -->
+  <div class="info-button">
+    <button class="more-info">Más información</button>
+  </div>
+  <!-- Contenido de preguntas frecuentes -->
+  <div class="faq-content">
+    <!-- Título de preguntas frecuentes -->
+    <div class="faq-tittle">
+      <h2 class="newsText">FAQ</h2>
+    </div>
+    <!-- Pregunta frecuente 1 -->
+    <div class="faq-structure">
+      <h3 class="faq">¿Qué es Deezer?</h3>
+      <img class="drop-down-arrow" src="src/icons/flecha-hacia-abajo-para-navegar.png" />
+    </div>
+    <!-- Respuesta a pregunta frecuente 1 -->
+    <div class="answer-faq">
+      <p class="answer">
+        Deezer es una app de streaming de música que te brinda acceso a más
+        de 90 millones de canciones de todo el mundo y otras experiencias de
+        audio como podcasts. También obtienes recomendaciones personalizadas
+        y contenido exclusivo de Deezer Originals.
+      </p>
+      <!-- Otras respuestas a preguntas frecuentes -->
+      <!-- ... -->
+    </div>
+  </div>
+  <!-- Información adicional -->
+  <div>
+    <p class="small-print">Estas ofertas son sin compromiso, lo que significa que puedes cancelar tu suscripción en
+      cualquier momento. Estas ofertas solo están disponibles para usuarios que no tengan actualmente o hayan tenido
+      una suscripción previa a cualquier plan de Deezer, sin beneficios de cualquier promoción previa de Deezer y sin
+      ninguna prueba gratis para cualquier suscripción de Deezer en algún momento. Estas ofertas no se pueden combinar
+      con ninguna otra oferta. Estas son ofertas por tiempo limitado y solo son válidas para un usuario.</p>
+  </div>
+</section>
+
+
+<footer>
+  <!-- Sección para descargar la aplicación de Deezer -->
+  <div class="download">
+    <img class="apple-store" src="src/img/appstore-badge.svg" alt="App store">
+    <img class="google-play" src="src/img/google-play.png" alt="Google play">
+  </div>
+  
+  <!-- Listas de navegación del pie de página -->
+  <div class="footer-list">
+    <!-- Lista 1: Deezer -->
+    <ul>
+      <li class="list-tittle">Deezer</li>
+      <li class="list-items">Planes</li>
+      <li class="list-items">Dispositivos</li>
+      <li class="list-items">Descarga la aplicación para computadora</li>
+      <li class="list-items">Tarjeta de regalo</li>
+      <li class="list-items">Ayuda</li>
+      <li class="list-items">Community y sugerencias</li>
+      <li class="list-items">Blog</li>
+    </ul>
+    
+    <!-- Lista 2: Ventajas -->
+    <ul>
+      <li class="list-tittle">Ventajas</li>
+      <li class="list-items">Flow</li>
+      <li class="list-items">Identificar canciones</li>
+      <li class="list-items">Transferir tu biblioteca</li>
+      <li class="list-items">Letras</li>
+      <li class="list-items">Escucha sin conexión</li>
+    </ul>
+    
+    <!-- Lista 3: Explorar -->
+    <ul>
+      <li class="list-tittle explore">Explorar</li>
+      <li class="list-items">Listas de éxitos</li>
+      <li class="list-items">Lanzamientos más populares</li>
+      <li class="list-items">Nuevos lanzamientos</li>
+      <li class="list-items">Radios</li>
+      <li class="list-items">Podcasts</li>
+      <li class="list-items">Música para todos los momentos</li>
+    </ul>
+    
+    <!-- Lista 4: Quiénes somos -->
+    <ul>
+      <li class="list-tittle">¿Quiénes somos?</li>
+      <li class="list-items">Inversionistas</li>
+      <li class="list-items">Asociaciones de marca</li>
+      <li class="list-items">Músicos y podcasters</li>
+      <li class="list-items">Desarrolladores</li>
+      <li class="list-items">Prensa</li>
+      <li class="list-items">Empleos</li>
+    </ul>
+    
+    <!-- Lista 5: Legal -->
+    <ul class="last-footer-list">
+      <li class="list-tittle">Legal</li>
+      <li class="list-items">Condiciones generales de uso</li>
+      <li class="list-items">Política de privacidad</li>
+      <li class="list-items">Cookies</li>
+      <li class="list-items">Informe de software de código abierto (EN)</li>
+    </ul>
+  </div>
+  
+  <!-- Iconos de redes sociales y logotipo de Deezer -->
+  <div class="social-media">
+    <!-- Lista de iconos de redes sociales -->
+    <ul class="social-media-icons">
+      <li><img src="src/icons/facebook.png" alt="Facebook"></li>
+      <li><img src="src/icons/instagram.png" alt="Instagram"></li>
+      <li><img src="src/icons/twitter.png" alt="Twitter"></li>
+      <li><img src="src/icons/youtube.png" alt="Youtube"></li>
+    </ul>
+    
+    <!-- Logotipo de Deezer -->
+    <div class="footer-logo">
+      <img src="src/img/deezer.1a1741c7871c27ef0ecb572defe8593e.png" alt="Logo Deezer">
+    </div>
+    
+    <!-- Términos legales y selector de idioma -->
+    <div class="legal-terms">
+      <div>© 2022 Deezer</div>
+      <div>
+        <span class="lang-label">Español (latam)<img src="src/icons/flecha-hacia-abajo-para-navegar.png"></span>
+      </div>
+    </div>
+  </div>
+</footer>
